@@ -5,6 +5,7 @@ typeset:
 	  --from         markdown       \
 	  --to           latex          \
 	  --template     template.tex   \
-	  --out          assignment.pdf \
+	  --out          twist_documentation.pdf \
 	  --pdf-engine   xelatex        \
-	  assignment.md
+	  --listings \
+	  vars.yaml `cat sections.txt`
